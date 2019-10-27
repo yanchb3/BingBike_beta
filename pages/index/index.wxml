@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<map 
+  id="initMap"
+  longitude="{{log}}"
+  latitude="{{lat}}"
+  controls="{{conts}}"
+  markers="{{markers}}"
+  show-location="true"
+  bindcontroltap="controlTap"
+  style="height:100%; width:100%"
+  bindregionchange="regionChange"
+>
+</map>
